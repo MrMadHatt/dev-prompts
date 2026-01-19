@@ -60,21 +60,30 @@ The following status checks must pass before merging:
    - Enable "Do not allow deletions"
 5. Click "Create" or "Save changes"
 
-### Option 2: GitHub CLI
+### Option 2: GitHub CLI (Automated Script)
+
+We've provided a convenience script to apply branch protection rules:
 
 ```bash
-# First, ensure you have the GitHub CLI installed and authenticated
+# Make sure you have GitHub CLI installed and authenticated
 gh auth login
 
-# Create branch protection rule using the GitHub API
+# Run the setup script
+./.github/setup-branch-protection.sh
+```
+
+Or manually using the GitHub API:
+
+```bash
 gh api repos/MrMadHatt/dev-prompts/branches/main/protection \
   --method PUT \
   --field required_status_checks='{"strict":true,"contexts":["Lint","Build"]}' \
   --field enforce_admins=false \
   --field required_pull_request_reviews='{"dismissal_restrictions":{},"dismiss_stale_reviews":true,"require_code_owner_reviews":false,"required_approving_review_count":1,"require_last_push_approval":false}' \
   --field restrictions=null \
-  --field allow_force_pushes=false \
-  --field allow_deletions=false
+  --field allow_force_pushes='{"enabled":false}' \
+  --field allow_deletions='{"enabled":false}' \
+  --field required_conversation_resolution='{"enabled":true}'
 ```
 
 ### Option 3: Using Repository Rulesets (Recommended)
