@@ -68,7 +68,7 @@ This repository has branch protection rules enabled on the `main` branch:
 - CI checks (lint and build) must pass before merging
 - Force pushes and branch deletion are prevented
 
-See [`.github/README.md`](.github/README.md) for detailed information about branch protection configuration.
+See [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md) for detailed information about branch protection configuration.
 
 ## 📄 License
 
