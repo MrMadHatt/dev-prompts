@@ -1,0 +1,88 @@
+.prompt-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prompt-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+}
+
+.prompt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.prompt-header h3 {
+  margin: 0;
+  color:  #333;
+  font-size: 1.2rem;
+  flex:  1;
+}
+
+.category-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding:  0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size:  0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.prompt-text {
+  color: #555;
+  line-height: 1.6;
+  margin:  0;
+  flex: 1;
+}
+
+.prompt-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #f0f0f0;
+  color: #667eea;
+  padding: 0.25rem 0.5rem;
+  border-radius:  5px;
+  font-size:  0.85rem;
+}
+
+.copy-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition:  all 0.3s ease;
+}
+
+.copy-btn:hover {
+  background: #764ba2;
+  transform: scale(1.05);
+}
+
+.copy-btn.copied {
+  background: #10b981;
+}
