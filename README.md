@@ -61,6 +61,15 @@ Contributions are welcome! Have a great AI prompt for developers?
 5. Push to the branch (`git push origin add-new-prompt`)
 6. Open a Pull Request
 
+### Branch Protection
+
+This repository has branch protection rules enabled on the `main` branch:
+- Pull requests require at least 1 approval before merging
+- CI checks (lint and build) must pass before merging
+- Force pushes and branch deletion are prevented
+
+See [`.github/README.md`](.github/README.md) for detailed information about branch protection configuration.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
