@@ -25,7 +25,7 @@ Coming soon!
 
 ```bash
 # Clone the repository
-git clone git@github.com:MrMadHatt/dev-prompts.git
+git clone https://github.com/MrMadHatt/dev-prompts.git
 
 # Navigate to the project
 cd dev-prompts
