@@ -1,26 +1,32 @@
-import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import PromptCard from './components/PromptCard';
 import promptsData from './data/prompts.json';
+import { useState, useEffect } from 'react';
 import './App.css';
 
 console.log('Prompts data:', promptsData);
 
 function App() {
   const [activeCategory, setActiveCategory] = useState('All');
+  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
+
+  useEffect(() => {
+    document.body.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
   // Get unique categories from prompts
-  const categories = [... new Set(promptsData.prompts.map(p => p. category))];
+  const categories = [...new Set(promptsData.prompts.map(p => p.category))];
 
   // Filter prompts based on active category
   const filteredPrompts = activeCategory === 'All' 
     ? promptsData.prompts 
-    : promptsData. prompts.filter(p => p.category === activeCategory);
+    : promptsData.prompts.filter(p => p.category === activeCategory);
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar theme={theme} setTheme={setTheme} />
       
       <div className="container">
         <Sidebar 

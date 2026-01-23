@@ -1,5 +1,5 @@
 .prompt-card {
-  background: white;
+  background: var(--card-bg);
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
@@ -23,14 +23,14 @@
 
 .prompt-header h3 {
   margin: 0;
-  color:  #333;
+  color:  var(--text);
   font-size: 1.2rem;
   flex:  1;
 }
 
 .category-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: var(--card-bg);
   padding:  0.25rem 0.75rem;
   border-radius: 20px;
   font-size:  0.8rem;
@@ -39,7 +39,7 @@
 }
 
 .prompt-text {
-  color: #555;
+  color: var(--text);
   line-height: 1.6;
   margin:  0;
   flex: 1;
@@ -60,16 +60,16 @@
 }
 
 .tag {
-  background: #f0f0f0;
-  color: #667eea;
+  background: var(--primary);
+  color: var(--card-bg);
   padding: 0.25rem 0.5rem;
   border-radius:  5px;
   font-size:  0.85rem;
 }
 
 .copy-btn {
-  background: #667eea;
-  color: white;
+  background: var(--primary);
+  color: var(--card-bg);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -79,10 +79,10 @@
 }
 
 .copy-btn:hover {
-  background: #764ba2;
+  background: var(--accent);
   transform: scale(1.05);
 }
 
 .copy-btn.copied {
-  background: #10b981;
+  background: var(--accent);
 }

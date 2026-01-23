@@ -1,3 +1,26 @@
+:root {
+  --bg: #f5f5f5;
+  --text: #222;
+  --card-bg: #fff;
+  --primary: #667eea;
+  --accent: #764ba2;
+  --sidebar-bg: #fff;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+[data-theme='dark'] {
+  --bg: #18181b;
+  --text: #fafafa;
+  --card-bg: #23232c;
+  --primary: #8ec0e4;
+  --accent: #495579;
+  --sidebar-bg: #20212a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +29,9 @@
 
 .App {
   min-height: 100vh;
-  background: #f5f5f5;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 main {
@@ -14,15 +39,16 @@ main {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: var(--text);
 }
 
 h2 {
   font-size: 2rem;
-  color: #333;
+  color: var(--text);
   margin-bottom: 1rem;
 }
 
 p {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--text);
 }
