@@ -12,7 +12,7 @@ A curated, searchable library of AI prompts specifically designed for developers
 
 ## 🚀 Live Demo
 
-[https://mrmmadhatt.github.io/dev-prompts/](https://mrmmadhatt.github.io/dev-prompts/) 
+[Live Demo](https://mrmadhatt.github.io/dev-prompts/) 
 
 ## 🛠️ Tech Stack
 
