@@ -12,7 +12,7 @@ A curated, searchable library of AI prompts specifically designed for developers
 
 ## 🚀 Live Demo
 
-Coming soon! 
+[Live Demo](https://mrmadhatt.github.io/dev-prompts/) 
 
 ## 🛠️ Tech Stack
 
@@ -74,6 +74,21 @@ See [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md) for detailed 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🚀 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
+
+1. Triggers on every push to the `main` branch
+2. Builds the Vite project with the correct base path (`/dev-prompts/`)
+3. Deploys the `dist` folder to GitHub Pages
+
+To enable GitHub Pages for your fork:
+1. Go to your repository Settings > Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. Push to the `main` branch to trigger the deployment
+
+The site will be available at: `https://[your-username].github.io/dev-prompts/`
+
 ## 🎯 Roadmap
 
 - [ ] Add search functionality
@@ -82,7 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Expand to 50+ prompts
 - [ ] Community submission form
 - [ ] Voting/popularity system
-- [ ] Deploy to GitHub Pages
+- [x] Deploy to GitHub Pages
 
 ## 👨‍💻 Author
 
