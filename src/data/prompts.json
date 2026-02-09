@@ -44,6 +44,486 @@
       "tags": ["documentation", "comments"],
       "votes": 0,
       "author": "MrMadHatt"
+    },
+    {
+      "id": 6,
+      "title": "Write Unit Tests",
+      "category": "Testing",
+      "prompt": "Write comprehensive unit tests for this code using [TEST FRAMEWORK]. Include edge cases:  [CODE]",
+      "tags": ["testing", "unit-tests"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 7,
+      "title": "Optimize Performance",
+      "category": "Performance",
+      "prompt": "Identify performance bottlenecks and optimize this code without changing its behavior:  [CODE]",
+      "tags": ["performance", "optimization"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 8,
+      "title": "Add Type Annotations",
+      "category": "Type Safety",
+      "prompt": "Add type annotations to this code (functions, variables, and return types) using [LANGUAGE/TYPE SYSTEM]:  [CODE]",
+      "tags": ["types", "type-safety"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 9,
+      "title": "Convert Code",
+      "category": "Migration",
+      "prompt": "Convert this code from [SOURCE LANGUAGE] to [TARGET LANGUAGE] and keep the same behavior:  [CODE]",
+      "tags": ["migration", "conversion"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 10,
+      "title": "Explain Error Logs",
+      "category": "Debugging",
+      "prompt": "Explain these logs, identify the root cause, and suggest a fix:  [LOGS]",
+      "tags": ["debugging", "logs"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 11,
+      "title": "Write Regex",
+      "category": "Utilities",
+      "prompt": "Write a regex to [TASK]. Provide examples of matches and non-matches.",
+      "tags": ["regex", "utilities"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 12,
+      "title": "Security Review",
+      "category": "Security",
+      "prompt": "Review this code for security issues (injection, auth, secrets, etc.) and suggest fixes:  [CODE]",
+      "tags": ["security", "code-review"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 13,
+      "title": "Improve Error Handling",
+      "category": "Reliability",
+      "prompt": "Improve error handling in this code and explain the changes:  [CODE]",
+      "tags": ["reliability", "error-handling"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 14,
+      "title": "Add Logging",
+      "category": "Observability",
+      "prompt": "Add structured logging to this code and show where logs should be placed:  [CODE]",
+      "tags": ["logging", "observability"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 15,
+      "title": "Design API",
+      "category": "Architecture",
+      "prompt": "Design a REST API for [FEATURE]. Include endpoints, request/response shapes, and error codes.",
+      "tags": ["api", "architecture"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 16,
+      "title": "Create SQL Query",
+      "category": "Databases",
+      "prompt": "Write an efficient SQL query to [TASK]. Include indexes if helpful.",
+      "tags": ["sql", "databases"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 17,
+      "title": "Explain Algorithm",
+      "category": "Learning",
+      "prompt": "Explain the [ALGORITHM] step-by-step and provide a simple implementation in [LANGUAGE].",
+      "tags": ["learning", "algorithms"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 18,
+      "title": "Generate Mock Data",
+      "category": "Testing",
+      "prompt": "Generate realistic mock data for [DOMAIN]. Provide at least [N] records in JSON.",
+      "tags": ["testing", "mock-data"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 19,
+      "title": "Write CLI Command",
+      "category": "Tooling",
+      "prompt": "Design a CLI for [TASK]. Include command structure, flags, and help output.",
+      "tags": ["cli", "tooling"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 20,
+      "title": "Create UI Copy",
+      "category": "UX",
+      "prompt": "Write concise UI copy for [SCREEN/FEATURE]. Include empty states and error messages.",
+      "tags": ["ux", "copywriting"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 21,
+      "title": "Plan Project",
+      "category": "Planning",
+      "prompt": "Create a step-by-step plan to build [PROJECT]. Include milestones and risks.",
+      "tags": ["planning", "project-management"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 22,
+      "title": "Explain Big-O",
+      "category": "Learning",
+      "prompt": "Analyze the time and space complexity of this code and explain in simple terms:  [CODE]",
+      "tags": ["learning", "complexity"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 23,
+      "title": "Fix Lint Issues",
+      "category": "Maintenance",
+      "prompt": "Fix linting issues according to [LINT RULES]. Provide the corrected code:  [CODE]",
+      "tags": ["lint", "maintenance"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 24,
+      "title": "Write Changelog Entry",
+      "category": "Documentation",
+      "prompt": "Draft a changelog entry for this change using [FORMAT] with highlights and breaking changes:  [CHANGE SUMMARY]",
+      "tags": ["documentation", "release"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 25,
+      "title": "Create Integration Tests",
+      "category": "Testing",
+      "prompt": "Write integration tests for this feature using [TEST FRAMEWORK]. Include setup/teardown:  [FEATURE DETAILS]",
+      "tags": ["testing", "integration-tests"],
+      "votes": 0,
+      "author": "MrMadHatt"
+    },
+    {
+      "id": 26,
+      "title": "Generate Unit Tests for a Function",
+      "category": "Testing",
+      "prompt": "Write comprehensive unit tests for the following function: [paste function here]."
+    },
+    {
+      "id": 27,
+      "title": "Explain This Stacktrace",
+      "category": "Debugging",
+      "prompt": "Analyze and explain the cause of the following error stacktrace: [paste stacktrace here]."
+    },
+    {
+      "id": 28,
+      "title": "Optimize SQL Query",
+      "category": "Database",
+      "prompt": "Optimize the performance of this SQL query: [paste query here]."
+    },
+    {
+      "id": 29,
+      "title": "Summarize a Pull Request",
+      "category": "Collaboration",
+      "prompt": "Summarize the changes and intent of this pull request: [paste PR link or description]."
+    },
+    {
+      "id": 30,
+      "title": "Suggest Git Commit Message",
+      "category": "Git",
+      "prompt": "Suggest a clear and concise commit message for these code changes: [paste code or summary]."
+    },
+    {
+      "id": 31,
+      "title": "Refactor for Readability",
+      "category": "Refactoring",
+      "prompt": "Rewrite this code to improve readability and maintainability: [paste code snippet]."
+    },
+    {
+      "id": 32,
+      "title": "Document an API Endpoint",
+      "category": "Documentation",
+      "prompt": "Create clear and concise API documentation for this endpoint: [paste endpoint description or code]."
+    },
+    {
+      "id": 33,
+      "title": "Find Performance Bottlenecks",
+      "category": "Performance",
+      "prompt": "Identify and explain any performance bottlenecks in this code: [paste code or link]."
+    },
+    {
+      "id": 34,
+      "title": "Explain a Regular Expression",
+      "category": "Learning",
+      "prompt": "Break down and explain what this regular expression does: [paste regex here]."
+    },
+    {
+      "id": 35,
+      "title": "Suggest Code Review Improvements",
+      "category": "Collaboration",
+      "prompt": "List specific improvements for this code review: [paste diff or code]."
+    },
+    {
+      "id": 36,
+      "title": "Describe an Algorithm",
+      "category": "Learning",
+      "prompt": "Describe the algorithm used in this code and its time complexity: [paste code]."
+    },
+    {
+      "id": 37,
+      "title": "Generate API Mock Data",
+      "category": "Development",
+      "prompt": "Generate a set of realistic mock data for this API response: [describe schema]."
+    },
+    {
+      "id": 38,
+      "title": "Convert Code to a Different Language",
+      "category": "Learning",
+      "prompt": "Convert this code snippet from [current language] to [target language]: [paste code]."
+    },
+    {
+      "id": 39,
+      "title": "Summarize Code Changes",
+      "category": "Collaboration",
+      "prompt": "Provide a bullet-point summary of the main changes in this code diff: [paste diff]."
+    },
+    {
+      "id": 40,
+      "title": "Best Practices Checklist",
+      "category": "Review",
+      "prompt": "List best practices to check before finalizing this code: [paste code or checklist type]."
+    },
+    {
+      "id": 41,
+      "title": "Explain an Error Message",
+      "category": "Debugging",
+      "prompt": "Explain the following error message and how to resolve it: [paste error message]."
+    },
+    {
+      "id": 42,
+      "title": "Generate Terraform Resource Example",
+      "category": "DevOps",
+      "prompt": "Generate an example Terraform configuration for the following resource: [describe or link resource]."
+    },
+    {
+      "id": 43,
+      "title": "Dockerize This Application",
+      "category": "DevOps",
+      "prompt": "Provide a Dockerfile to containerize this application: [describe app, tech stack, and relevant files]."
+    },
+    {
+      "id": 44,
+      "title": "Create a GitHub Actions Workflow",
+      "category": "DevOps",
+      "prompt": "Write a GitHub Actions workflow to automate testing and deployment for this project: [describe stack and tasks]."
+    },
+    {
+      "id": 45,
+      "title": "Suggest Security Improvements",
+      "category": "Security",
+      "prompt": "Review this code for security vulnerabilities and suggest improvements: [paste code]."
+    },
+    {
+      "id": 46,
+      "title": "Summarize Meeting Notes",
+      "category": "Productivity",
+      "prompt": "Summarize these meeting notes into actionable tasks: [paste notes]."
+    },
+    {
+      "id": 47,
+      "title": "Explain a Design Pattern",
+      "category": "Learning",
+      "prompt": "Explain how the [Singleton/Observer/etc.] design pattern works and when to use it."
+    },
+    {
+      "id": 48,
+      "title": "Convert REST to GraphQL Query",
+      "category": "API",
+      "prompt": "Convert this REST API call to an equivalent GraphQL query: [paste REST example]."
+    },
+    {
+      "id": 49,
+      "title": "Accessibility Audit",
+      "category": "Accessibility",
+      "prompt": "Perform a basic accessibility audit of this HTML: [paste HTML snippet]."
+    },
+    {
+      "id": 50,
+      "title": "Add PropTypes/TypeScript Types",
+      "category": "Type Safety",
+      "prompt": "Add PropTypes or TypeScript types to this React component: [paste component]."
+    },
+    {
+      "id": 51,
+      "title": "Suggest CLI Tool Improvements",
+      "category": "CLI Tools",
+      "prompt": "Review this CLI tool and suggest UI/UX improvements: [paste commands/help output]."
+    },
+    {
+      "id": 52,
+      "title": "Create a .gitignore File",
+      "category": "Git",
+      "prompt": "Generate a .gitignore file suitable for this project: [state language/platform]."
+    },
+    {
+      "id": 54,
+      "title": "Write Release Notes",
+      "category": "Release Management",
+      "prompt": "Draft concise release notes for this new version: [paste changelog or commits]."
+    },
+    {
+      "id": 55,
+      "title": "Convert CSS to Tailwind",
+      "category": "Styling",
+      "prompt": "Convert this CSS to equivalent Tailwind CSS classes: [paste CSS snippet]."
+    },
+    {
+      "id": 56,
+      "title": "Create a Responsive Layout",
+      "category": "Styling",
+      "prompt": "Describe how to make this layout responsive using CSS grid or flexbox: [describe layout]."
+    },
+    {
+      "id": 57,
+      "title": "Explain API Rate Limit Error",
+      "category": "API",
+      "prompt": "Explain how to handle and avoid API rate limit errors for this service: [describe context]."
+    },
+    {
+      "id": 58,
+      "title": "Code for Retry Logic",
+      "category": "Resilience",
+      "prompt": "Write robust retry logic for this function: [paste function or task requirements]."
+    },
+    {
+      "id": 59,
+      "title": "Review CI/CD Pipeline",
+      "category": "DevOps",
+      "prompt": "Review this CI/CD pipeline for possible improvements or missed steps: [paste pipeline config]."
+    },
+    {
+      "id": 60,
+      "title": "Suggest Interview Questions",
+      "category": "Hiring",
+      "prompt": "Suggest technical interview questions for a candidate with this role/stack: [describe role or tech]."
+    },
+    {
+      "id": 61,
+      "title": "Setup Linter for Project",
+      "category": "Quality",
+      "prompt": "Suggest a popular linter configuration and setup steps for this stack: [state stack/language]."
+    },
+    {
+      "id": 62,
+      "title": "Summarize Log Output",
+      "category": "Debugging",
+      "prompt": "Summarize this log output and highlight potential issues: [paste logs]."
+    },
+    {
+      "id": 63,
+      "title": "Explain OAuth Flow",
+      "category": "API",
+      "prompt": "Explain how OAuth authentication works in this app context: [describe use case]."
+    },
+    {
+      "id": 64,
+      "title": "Write Performance Test Scenario",
+      "category": "Testing",
+      "prompt": "Write a basic test scenario for measuring the performance of this endpoint: [describe endpoint]."
+    },
+    {
+      "id": 65,
+      "title": "Prioritize Feature Requests",
+      "category": "Productivity",
+      "prompt": "Prioritize these feature requests based on impact and effort: [paste list]."
+    },
+    {
+      "id": 66,
+      "title": "Find Deprecated Dependencies",
+      "category": "Maintenance",
+      "prompt": "List which of these dependencies are deprecated or have known security issues: [paste package list]."
+    },
+    {
+      "id": 67,
+      "title": "Summarize Documentation",
+      "category": "Documentation",
+      "prompt": "Summarize the key points and usage instructions from this markdown documentation: [paste doc]."
+    },
+    {
+      "id": 68,
+      "title": "Convert Markdown to HTML",
+      "category": "Documentation",
+      "prompt": "Convert this markdown text into HTML: [paste markdown]."
+    },
+    {
+      "id": 69,
+      "title": "Code Snippet Explanation",
+      "category": "Learning",
+      "prompt": "Explain what this code snippet does and when you might use it: [paste snippet]."
+    },
+    {
+      "id": 70,
+      "title": "Suggest Name for Function/Variable",
+      "category": "Quality",
+      "prompt": "Suggest a clear, concise name for this function/variable: [describe purpose or paste code]."
+    },
+    {
+      "id": 71,
+      "title": "Write Migration Script",
+      "category": "Database",
+      "prompt": "Write a migration script for updating this database schema: [describe old and new schema]."
+    },
+    {
+      "id": 72,
+      "title": "Convert Callback to Async/Await",
+      "category": "Learning",
+      "prompt": "Rewrite this callback-based code using async/await: [paste code]."
+    },
+    {
+      "id": 73,
+      "title": "Explain Memory Leak Cause",
+      "category": "Debugging",
+      "prompt": "Explain what is causing the memory leak in this code: [paste code or describe situation]."
+    },
+    {
+      "id": 74,
+      "title": "Basic SEO Checklist",
+      "category": "Quality",
+      "prompt": "List basic SEO improvements for this HTML page: [paste HTML or describe page]."
+    },
+    {
+      "id": 75,
+      "title": "Automate Dependency Updates",
+      "category": "Maintenance",
+      "prompt": "How can I automate keeping dependencies up to date in this repo? [describe repo, language]."
+    },
+    {
+      "id": 76,
+      "title": "Fix Merge Conflicts",
+      "category": "Git",
+      "prompt": "How should I resolve these merge conflicts in my codebase? [paste conflict]."
     }
   ]
 }
