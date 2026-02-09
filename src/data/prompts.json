@@ -562,7 +562,10 @@
       "id": 75,
       "title": "Fix Merge Conflicts",
       "category": "Git",
-      "prompt": "How should I resolve these merge conflicts in my codebase? [paste conflict]."
+      "prompt": "How should I resolve these merge conflicts in my codebase? [paste conflict].",
+      "tags": ["git", "merge-conflict"],
+      "votes": 0,
+      "author": "MrMadHatt"
     }
   ]
 }
