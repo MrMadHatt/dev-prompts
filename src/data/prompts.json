@@ -6,8 +6,7 @@
       "category": "Debugging",
       "prompt": "I'm getting this error: [ERROR MESSAGE]. Here's my code: [CODE]. Explain what's wrong in simple terms and suggest a fix.",
       "tags": [
-        "debugging",
-        "error-handling"
+        "debugging"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -18,8 +17,7 @@
       "category": "Learning",
       "prompt": "Explain [CONCEPT] like I'm 5 years old, then give me a practical coding example in [LANGUAGE].",
       "tags": [
-        "learning",
-        "beginner"
+        "learning"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -30,8 +28,7 @@
       "category": "Code Review",
       "prompt": "Review this code for bugs, performance issues, security vulnerabilities, and best practices. Suggest improvements: [CODE]",
       "tags": [
-        "code-review",
-        "best-practices"
+        "code-review"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -42,8 +39,7 @@
       "category": "Refactoring",
       "prompt": "Refactor this code to be more readable and maintainable while preserving functionality: [CODE]",
       "tags": [
-        "refactoring",
-        "clean-code"
+        "refactoring"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -54,8 +50,7 @@
       "category": "Documentation",
       "prompt": "Write clear, comprehensive documentation for this function including parameters, return values, and usage examples: [CODE]",
       "tags": [
-        "documentation",
-        "comments"
+        "documentation"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -66,8 +61,7 @@
       "category": "Testing",
       "prompt": "Write comprehensive unit tests for this entire module or file using [TEST FRAMEWORK]. Cover all public functions and behaviors, including edge cases: [CODE]",
       "tags": [
-        "testing",
-        "unit-tests"
+        "testing"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -78,8 +72,7 @@
       "category": "Refactoring",
       "prompt": "Identify performance bottlenecks and optimize this code without changing its behavior: [CODE]",
       "tags": [
-        "performance",
-        "optimization"
+        "performance"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -90,8 +83,7 @@
       "category": "Refactoring",
       "prompt": "Add type annotations to this code (functions, variables, and return types) using [LANGUAGE/TYPE SYSTEM]: [CODE]",
       "tags": [
-        "types",
-        "type-safety"
+        "refactoring"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -102,8 +94,7 @@
       "category": "Refactoring",
       "prompt": "Convert this code from [SOURCE LANGUAGE] to [TARGET LANGUAGE] and keep the same behavior: [CODE]",
       "tags": [
-        "migration",
-        "conversion"
+        "refactoring"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -114,8 +105,7 @@
       "category": "Debugging",
       "prompt": "Explain these logs, identify the root cause, and suggest a fix: [LOGS]",
       "tags": [
-        "debugging",
-        "logs"
+        "debugging"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -126,7 +116,6 @@
       "category": "Refactoring",
       "prompt": "Write a regex to [TASK]. Provide examples of matches and non-matches.",
       "tags": [
-        "regex",
         "refactoring"
       ],
       "votes": 0,
@@ -138,7 +127,6 @@
       "category": "Code Review",
       "prompt": "Review this code for security issues (injection, auth, secrets, etc.) and suggest fixes: [CODE]",
       "tags": [
-        "security",
         "code review"
       ],
       "votes": 0,
@@ -194,8 +182,7 @@
       "category": "Learning",
       "prompt": "Explain the [ALGORITHM] step-by-step and provide a simple implementation in [LANGUAGE].",
       "tags": [
-        "learning",
-        "algorithms"
+        "learning"
       ],
       "votes": 0,
       "author": "MrMadHatt"
@@ -359,7 +346,9 @@
       "title": "Document an API Endpoint",
       "category": "Documentation",
       "prompt": "Create clear and concise API documentation for this endpoint: [paste endpoint description or code].",
-      "tags": "documentation",
+      "tags": [
+        "documentation"
+      ],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -368,7 +357,7 @@
       "title": "Find Performance Bottlenecks",
       "category": "Debugging",
       "prompt": "Identify and explain any performance bottlenecks in this code: [paste code or link].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -377,7 +366,7 @@
       "title": "Explain a Regular Expression",
       "category": "Learning",
       "prompt": "Break down and explain what this regular expression does: [paste regex here].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -386,7 +375,7 @@
       "title": "Suggest Code Review Improvements",
       "category": "Code Review",
       "prompt": "List specific improvements for this code review: [paste diff or code].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -395,7 +384,7 @@
       "title": "Describe an Algorithm",
       "category": "Learning",
       "prompt": "Describe the algorithm used in this code and its time complexity: [paste code].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -404,7 +393,7 @@
       "title": "Generate API Mock Data",
       "category": "Code Review",
       "prompt": "Generate a set of realistic mock data for this API response: [describe schema].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -413,7 +402,7 @@
       "title": "Convert Code to a Different Language",
       "category": "Learning",
       "prompt": "Convert this code snippet from [current language] to [target language]: [paste code].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "MrMadHatt"
     },
@@ -422,7 +411,7 @@
       "title": "Summarize Code Changes",
       "category": "Code Review",
       "prompt": "Provide a bullet-point summary of the main changes in this code diff: [paste diff].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -431,7 +420,7 @@
       "title": "Best Practices Checklist",
       "category": "Code Review",
       "prompt": "List best practices to check before finalizing this code: [paste code or checklist type].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -440,7 +429,7 @@
       "title": "Explain an Error Message",
       "category": "Debugging",
       "prompt": "Explain the following error message and how to resolve it: [paste error message].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "unknown"
     },
@@ -449,7 +438,7 @@
       "title": "Generate Terraform Resource Example",
       "category": "Refactoring",
       "prompt": "Generate an example Terraform configuration for the following resource: [describe or link resource].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -458,7 +447,7 @@
       "title": "Dockerize This Application",
       "category": "Refactoring",
       "prompt": "Provide a Dockerfile to containerize this application: [describe app, tech stack, and relevant files].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -467,7 +456,7 @@
       "title": "Create a GitHub Actions Workflow",
       "category": "Refactoring",
       "prompt": "Write a GitHub Actions workflow to automate testing and deployment for this project: [describe stack and tasks].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -476,7 +465,7 @@
       "title": "Suggest Security Improvements",
       "category": "Code Review",
       "prompt": "Review this code for security vulnerabilities and suggest improvements: [paste code].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -485,7 +474,7 @@
       "title": "Summarize Meeting Notes",
       "category": "Documentation",
       "prompt": "Summarize these meeting notes into actionable tasks: [paste notes].",
-      "tags": "documentation",
+      "tags": ["documentation"],
       "votes": 0,
       "author": "unknown"
     },
@@ -494,7 +483,7 @@
       "title": "Explain a Design Pattern",
       "category": "Learning",
       "prompt": "Explain how the [Singleton/Observer/etc.] design pattern works and when to use it.",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "unknown"
     },
@@ -503,7 +492,7 @@
       "title": "Convert REST to GraphQL Query",
       "category": "Refactoring",
       "prompt": "Convert this REST API call to an equivalent GraphQL query: [paste REST example].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -512,7 +501,7 @@
       "title": "Accessibility Audit",
       "category": "Code Review",
       "prompt": "Perform a basic accessibility audit of this HTML: [paste HTML snippet].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -521,7 +510,7 @@
       "title": "Add PropTypes/TypeScript Types",
       "category": "Refactoring",
       "prompt": "Add PropTypes or TypeScript types to this React component: [paste component].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -530,7 +519,7 @@
       "title": "Suggest CLI Tool Improvements",
       "category": "Code Review",
       "prompt": "Review this CLI tool and suggest UI/UX improvements: [paste commands/help output].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -539,7 +528,7 @@
       "title": "Create a .gitignore File",
       "category": "Documentation",
       "prompt": "Generate a .gitignore file suitable for this project: [state language/platform].",
-      "tags": "documentation",
+      "tags": ["documentation"],
       "votes": 0,
       "author": "unknown"
     },
@@ -548,7 +537,7 @@
       "title": "Write Release Notes",
       "category": "Documentation",
       "prompt": "Draft concise release notes for this new version: [paste changelog or commits].",
-      "tags": "documentation",
+      "tags": ["documentation"],
       "votes": 0,
       "author": "unknown"
     },
@@ -557,7 +546,7 @@
       "title": "Convert CSS to Tailwind",
       "category": "Refactoring",
       "prompt": "Convert this CSS to equivalent Tailwind CSS classes: [paste CSS snippet].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -566,7 +555,7 @@
       "title": "Create a Responsive Layout",
       "category": "Refactoring",
       "prompt": "Describe how to make this layout responsive using CSS grid or flexbox: [describe layout].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -575,7 +564,7 @@
       "title": "Explain API Rate Limit Error",
       "category": "Debugging",
       "prompt": "Explain how to handle and avoid API rate limit errors for this service: [describe context].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "unknown"
     },
@@ -584,7 +573,7 @@
       "title": "Code for Retry Logic",
       "category": "Refactoring",
       "prompt": "Write robust retry logic for this function: [paste function or task requirements].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -593,7 +582,7 @@
       "title": "Review CI/CD Pipeline",
       "category": "Code Review",
       "prompt": "Review this CI/CD pipeline for possible improvements or missed steps: [paste pipeline config].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -602,7 +591,7 @@
       "title": "Suggest Interview Questions",
       "category": "Code Review",
       "prompt": "Suggest technical interview questions for a candidate with this role/stack: [describe role or tech].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -611,7 +600,7 @@
       "title": "Setup Linter for Project",
       "category": "Code Review",
       "prompt": "Suggest a popular linter configuration and setup steps for this stack: [state stack/language].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -620,7 +609,7 @@
       "title": "Summarize Log Output",
       "category": "Debugging",
       "prompt": "Summarize this log output and highlight potential issues: [paste logs].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "unknown"
     },
@@ -629,7 +618,7 @@
       "title": "Explain OAuth Flow",
       "category": "Learning",
       "prompt": "Explain how OAuth authentication works in this app context: [describe use case].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "unknown"
     },
@@ -638,7 +627,7 @@
       "title": "Write Performance Test Scenario",
       "category": "Code Review",
       "prompt": "Write a basic test scenario for measuring the performance of this endpoint: [describe endpoint].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -647,7 +636,7 @@
       "title": "Prioritize Feature Requests",
       "category": "Code Review",
       "prompt": "Prioritize these feature requests based on impact and effort: [paste list].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -656,7 +645,7 @@
       "title": "Find Deprecated Dependencies",
       "category": "Code Review",
       "prompt": "List which of these dependencies are deprecated or have known security issues: [paste package list].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -665,7 +654,7 @@
       "title": "Summarize Documentation",
       "category": "Documentation",
       "prompt": "Summarize the key points and usage instructions from this markdown documentation: [paste doc].",
-      "tags": "documentation",
+      "tags": ["documentation"],
       "votes": 0,
       "author": "unknown"
     },
@@ -674,7 +663,7 @@
       "title": "Convert Markdown to HTML",
       "category": "Documentation",
       "prompt": "Convert this markdown text into HTML: [paste markdown].",
-      "tags": "documentation",
+      "tags": ["documentation"],
       "votes": 0,
       "author": "unknown"
     },
@@ -683,7 +672,7 @@
       "title": "Code Snippet Explanation",
       "category": "Learning",
       "prompt": "Explain what this code snippet does and when you might use it: [paste snippet].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "unknown"
     },
@@ -692,7 +681,7 @@
       "title": "Suggest Name for Function/Variable",
       "category": "Code Review",
       "prompt": "Suggest a clear, concise name for this function/variable: [describe purpose or paste code].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -701,7 +690,7 @@
       "title": "Write Migration Script",
       "category": "Refactoring",
       "prompt": "Write a migration script for updating this database schema: [describe old and new schema].",
-      "tags": "refactoring",
+      "tags": ["refactoring"],
       "votes": 0,
       "author": "unknown"
     },
@@ -710,7 +699,7 @@
       "title": "Convert Callback to Async/Await",
       "category": "Learning",
       "prompt": "Rewrite this callback-based code using async/await: [paste code].",
-      "tags": "learning",
+      "tags": ["learning"],
       "votes": 0,
       "author": "unknown"
     },
@@ -719,7 +708,7 @@
       "title": "Explain Memory Leak Cause",
       "category": "Debugging",
       "prompt": "Explain what is causing the memory leak in this code: [paste code or describe situation].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "unknown"
     },
@@ -728,7 +717,7 @@
       "title": "Basic SEO Checklist",
       "category": "Code Review",
       "prompt": "List basic SEO improvements for this HTML page: [paste HTML or describe page].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -737,7 +726,7 @@
       "title": "Automate Dependency Updates",
       "category": "Code Review",
       "prompt": "How can I automate keeping dependencies up to date in this repo? [describe repo, language].",
-      "tags": "code review",
+      "tags": ["code review"],
       "votes": 0,
       "author": "unknown"
     },
@@ -746,7 +735,7 @@
       "title": "Fix Merge Conflicts",
       "category": "Debugging",
       "prompt": "How should I resolve these merge conflicts in my codebase? [paste conflict].",
-      "tags": "debugging",
+      "tags": ["debugging"],
       "votes": 0,
       "author": "MrMadHatt"
     }
