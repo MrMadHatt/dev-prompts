@@ -58,10 +58,10 @@
     {
       "id": 6,
       "title": "Write Unit Tests for Full Module",
-      "category": "Documentation",
+      "category": "Code Review",
       "prompt": "Write comprehensive unit tests for this entire module or file using [TEST FRAMEWORK]. Cover all public functions and behaviors, including edge cases: [CODE]",
       "tags": [
-        "documentation"
+        "code review"
       ],
       "votes": 0,
       "author": "MrMadHatt"
